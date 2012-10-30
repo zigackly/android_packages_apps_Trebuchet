@@ -597,7 +597,7 @@ public class Workspace extends SmoothPagedView
             if (!mHideIconLabels) {
                 // Hide titles in the hotseat
                 if (child instanceof FolderIcon) {
-                    ((FolderIcon) child).setTextVisible(false);
+                    ((FolderIcon) child).setTextVisible(true);
                 } else if (child instanceof BubbleTextView) {
                     ((BubbleTextView) child).setTextVisible(false);
                 }
